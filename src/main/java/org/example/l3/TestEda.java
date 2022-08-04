@@ -23,6 +23,7 @@ public class TestEda {
         driver.findElement(By.xpath("//*[@id='bx_3966226736_5433226']/div/div[3]/div/button[1]")).click();
         driver.findElement(By.xpath("//*[@id=\"header_vue\"]/div[6]/button/svg")).click();
 
+
         Thread.sleep(5000);
         driver.quit();
 
