@@ -30,11 +30,11 @@ public class Med_FonfiturTest {
         webDriverWait = new WebDriverWait(driver, Duration.ofSeconds(5));
         actions = new Actions(driver);
         driver.get(MED_KONFITUR_BASE_URL);
-        /*
+
         Cookie cookie = new Cookie("PHPSESSID", "e457u97l2omen8tuovk2tba0ul");
         driver.manage().addCookie(cookie);
         driver.navigate().refresh();
-         */
+
     }
 
     @Test
@@ -74,7 +74,7 @@ public class Med_FonfiturTest {
 
         WebElement nameTeaBasket = driver.findElement(By.xpath("//a[.='Ассам №17 чай черный Индия 50 гр.']"));
 
-        //Assertions.assertEquals(nameTea, nameTeaBasket);
+        Assertions.assertEquals(nameTea.getText(), nameTeaBasket.getText());
 
     }
 
