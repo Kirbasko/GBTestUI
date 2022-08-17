@@ -1,5 +1,6 @@
 package org.example.l6;
 
+import io.qameta.allure.Step;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -18,6 +19,7 @@ public class LoginPage extends BasePage{
     @FindBy(xpath = "//button[@class='btn btn-default fix-mob form-btn form-btn-enter']")
     private WebElement signInButton;
 
+    @Step("Логин")
     public MainPage login(String login, String password) {
         userLogin.sendKeys(login);
         userPassword.sendKeys(password);

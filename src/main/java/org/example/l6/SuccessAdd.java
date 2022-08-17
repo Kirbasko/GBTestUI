@@ -1,5 +1,6 @@
 package org.example.l6;
 
+import io.qameta.allure.Step;
 import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -21,7 +22,7 @@ public class SuccessAdd extends BasePage{
     @FindBy(xpath = "//h1[.='Ассам №17 чай черный Индия 50 гр.']")
     private WebElement nameTeaOnPage;
 
-
+    @Step("Проверка соответствия выбранного товара и товара в корзине")
     public SuccessAdd checkResult(){
         webDriverWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(windowBasket)));
         Assertions.assertEquals(nameTeaOnPage.getText(), nameTeaBasket.getText());

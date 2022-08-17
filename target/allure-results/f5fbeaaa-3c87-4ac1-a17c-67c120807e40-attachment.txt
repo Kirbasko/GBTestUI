@@ -1,0 +1,1 @@
+https://a.marketgid.com/mgsensor.js?d=1660750328068 - Failed to load resource: net::ERR_NAME_NOT_RESOLVED

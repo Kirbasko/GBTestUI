@@ -1,0 +1,1 @@
+https://www.med-konfitur.ru/local/templates/honey_06_2020/js/jquery-3.5.1.min.js?165879124589476 1:31669 Uncaught TypeError: $(...).masonry is not a function
