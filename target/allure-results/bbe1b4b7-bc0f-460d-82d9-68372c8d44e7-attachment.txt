@@ -1,0 +1,1 @@
+https://www.med-konfitur.ru/local/templates/honey_06_2020/js/jquery-migrate-3.0.0.js?165879124514923 61:11 "JQMIGRATE: jQuery.fn.unbind() is deprecated"
